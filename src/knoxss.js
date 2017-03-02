@@ -331,7 +331,7 @@ function notify(title, text) {
 function queryKnoxss(tab, domain, url, cookies) {
 	console.log("Querying KNOXSS service for \"" + url + "\", auth=" + cookies + ", tabId=" + tab.id);
 
-	var knoxssUrl = "https://knoxss.me/pro";
+	var knoxssUrl = "https://knoxss.me/old/pro";
 
 	// retrieve KNOXSS cookies
 	browser.cookies.getAll({domain: "knoxss.me"}).then((kcookies) => {
